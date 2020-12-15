@@ -1,0 +1,430 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*global  css start*/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+
+}
+/*.col-md-6{
+	width: 50%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}*/
+
+/*global  css end*/
+
+/*header part css start*/
+.header-section{
+	width: 100%;
+	float: left;
+	background: url(../images/banner.jpg) center top no-repeat;
+	background-size: cover;
+	height: 500px;
+	background-position:center;
+	background-color: #0000003b;
+	background-blend-mode: multiply;
+}
+.header-section .logo{
+	width: 20%;
+	float: left;
+}
+.header-section .logo h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: 700;
+	margin-top: 15px;
+	margin-left: 41px;
+}
+.header-section .logo span{
+	font-size: 15px;
+	font-weight: 200;
+	display: block;
+	letter-spacing: 3px;
+}
+.header-section nav{
+ width: 80%;
+ float: left;
+}
+.header-section nav ul {
+    list-style: none;
+    float: left;
+    margin-left: 206px;
+    margin-top: 12px;
+}
+.header-section nav ul li{
+ 	display: inline-block;
+ }
+.header-section nav ul li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    padding: 6px 20px;
+    text-decoration: none;
+    transition: 0.8s;
+    border: 1px solid #ffffff05;
+    border-radius: 30px;
+}
+.header-section nav ul li a:hover, .header-section nav ul li a:focus{
+		color:  #0cecc3;
+		border: 1px solid #0cecc3;
+        border-radius: 30px;
+}
+ .header-section nav ul li .take{
+ 	color:  #0cecc3;
+		border: 1px solid #0cecc3;
+        border-radius: 30px;
+ }
+.banner-inner{
+
+max-width: 100%;
+
+text-align: center;
+
+padding: 92px 0px;
+}
+.banner-inner p{
+	color: #fff;
+	font-size: 26px;
+	font-style: italic;
+	margin-bottom: 11px;
+	font-family: 'Rokkitt', serif;
+}
+.banner-inner span{
+	width: 71px;
+	height: 2px;
+	display: block;
+	background: #0cecc3;
+	margin: 0px auto 38px;
+}
+.banner-inner h1{
+	color: #fff;
+	font-size: 58px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 36px;
+}
+.banner-inner .btn-learn{
+	color: #0c0c0c;
+	background: #0cecc3;
+	padding: 8px 29px;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+	border:1px solid #0cecc3;
+	border-radius: 29px;
+	margin-top: 18px;
+	transition: 0.8s;
+}
+.banner-inner .btn-learn:hover, .banner-inner .btn-learn:focus{
+	color:  #0cecc3;
+	background: transparent;
+	border: 1px solid #0cecc3;
+}
+/*header part css end*/
+
+/*adam-lacture css start*/
+
+.adam-lacture{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background: #F4F6FA;
+	text-align: center;
+}
+.adam-lacture p{
+	color: #6C717A;
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'Rokkitt', serif;
+}
+.adam-lacture h6 {
+    font-size: 12px;
+    color: #A4A4A9;
+    font-weight: 700;
+    margin-top: 12px;
+    letter-spacing: 2px;
+}
+/*adam-lacture css end*/
+
+/*event-section css start*/
+.event-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.event-section .event-text{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.event-section .event-text h1{
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+.event-section .event-text span {
+    width: 71px;
+    height: 2px;
+    display: block;
+    background: #0cecc3;
+    margin: 16px auto 0px;
+}
+.event-section .colom{
+	width: 50%;
+	float: left;
+}
+.event-section .images-1{
+
+margin-left: 101px;
+}
+.event-section .images-1 .img-a{
+ 	width: 425px;
+ 	height: 200px;
+ 	margin-top: 50px;
+ 	box-shadow: 12px 12px 6px 0px #3333334a;
+}
+.event-section .images-1 h3{
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 27px;
+	margin-right: 53px;
+	color: #2B2A3C;
+}
+.event-section .images-1 p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-right: 49px;
+    color: #A1A9AE;
+}
+.event-section .images-1 .lear{
+	color: #0a0909;
+	margin-left: 130px;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background: #0cecc3;
+	border: 1px solid #0cecc3;
+	padding: 8px 30px;
+	border-radius: 30px;
+	transition: 0.8s;
+}
+.event-section .images-1 .lear:hover, .event-section .images-1 .lear:focus{
+	color: #0cecc3;
+	background: transparent;
+	border: 1px solid #0cecc3;
+}
+
+.event-section .images-2{
+
+margin-left: 46px;
+}
+.event-section .images-2 .img-b{
+ 	width: 425px;
+ 	height: 200px;
+ 	margin-top: 50px;
+ 	box-shadow: 12px 12px 6px 0px #3333334a;
+}
+.event-section .images-2 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 27px;
+    margin-right: 103px;
+    color: #2B2A3C;
+}
+.event-section .images-2 p {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-right: 96px;
+    color: #A1A9AE;
+}
+.event-section .images-2 .lear{
+	color: #0a0909;
+	margin-left: 141px;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background: #0cecc3;
+	border: 1px solid #0cecc3;
+	padding: 8px 30px;
+	border-radius: 30px;
+	transition: 0.8s;
+}
+.event-section .images-2 .lear:hover, .event-section .images-2 .lear:focus{
+	color: #0cecc3;
+	background: transparent;
+	border: 1px solid #0cecc3;
+}
+/*event-section css end*/
+
+/*explore-section css start*/
+.explore-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 120px;
+	background: url(../images/explore.jpg) center top no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #0000004f;
+	background-blend-mode: multiply;
+}
+.explore-section h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 70px;
+	line-height: 67px;
+	font-weight: 700;
+	margin-top: 25px;
+}
+.explore-section span{
+	width: 71px;
+	height: 2px;
+	display: block;
+	background: #0cecc3;
+	margin: 13px 0px 25px;
+}
+.explore-section p{
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+.explore-section .lear{
+	color: #0a0909;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background: #0cecc3;
+	border: 1px solid #0cecc3;
+	padding: 8px 30px;
+	border-radius: 30px;
+	transition: 0.8s;
+}
+.explore-section .lear:hover, .explore-section .lear:focus{
+	color: #0cecc3;
+	background: transparent;
+	border: 1px solid #0cecc3;
+}
+
+/*explore-section css end*/
+
+/*tours-section css start*/
+.tours-section{
+	width: 33.33%;
+	float: left;
+	padding: 80px 0px;
+	display: inline-block;
+}
+
+.tours-section .texts{
+	width: 100%;
+	float: left;
+	/* margin-left: 0px; */
+}
+.tours-section .texts h2{
+	color: #2B2A3C;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 41px;
+	font-weight: 700;
+	margin-bottom: 27px;
+}
+.tours-section .texts span{
+	width: 71px;
+	height: 2px;
+	display: block;
+	background: #0cecc3;
+	margin: 13px 0px 35px;
+}
+.tours-section .texts p{
+	color: #A1A9AE;
+	font-size: 17px;
+	font-weight: 500;
+	/* margin-top: 4px; */
+	margin-bottom: 40px;
+}
+.tours-section .texts .lear{
+	color: #0a0909;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background: #0cecc3;
+	border: 1px solid #0cecc3;
+	padding: 8px 30px;
+	border-radius: 30px;
+	transition: 0.8s;
+}
+.tours-section .texts .lear:hover, .texts .lear:focus{
+	color: #0cecc3;
+	background: transparent;
+	border: 1px solid #0cecc3;
+}
+.toures{
+	/*max-width: 33.33%;*/
+
+}
+.tour-img{
+	float: right;
+
+	margin-left: 10px;
+	margin-right: 20px; 
+}
+.large{
+	height: 500px;
+	width: 200px;
+	object-fit: cover;
+	object-position: center;
+}
+.small{
+	height: 500px;
+	width: 200px;
+	object-fit: cover;
+	object-position: center;
+}
+/*tours-section css end*/
